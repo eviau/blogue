@@ -23,6 +23,7 @@ jobs:
     - uses: actions/checkout@v2
     - name: Build HTML
       uses: ammaraskar/sphinx-action@master
+      with:
         build-command: "if [ -f docs/ ]; then sphinx-build -b html source/ build/; fi"
     - name: Upload artifacts
       uses: actions/upload-artifact@v1
