@@ -1,23 +1,21 @@
-name: CI
-
+name: Pages
 on:
   push:
-    branches:    
-      - main
+    branches:
+    - main
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v2
-    - name: Build HTML
-      uses: ammaraskar/sphinx-action@master
+    - uses: actions/setup-python@v2
+    - uses: actions/checkout@master
       with:
-        build-command: "sphinx-build -b html source build"
+        fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
+    - name: Build and Commit
+      uses: sphinx-notes/pages@v2
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: gh-pages
-    # ===============================
