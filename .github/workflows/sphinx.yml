@@ -24,7 +24,7 @@ jobs:
     - name: Build HTML
       uses: ammaraskar/sphinx-action@master
       with:
-        build-command: "if [ -f docs/ ]; then sphinx-build -b html source/ build/; fi"
+        build-command: "sphinx-build -b html source build"
     - name: Upload artifacts
       uses: actions/upload-artifact@v1
       with:
