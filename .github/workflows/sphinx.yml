@@ -6,14 +6,12 @@ on:
       - main
 
 jobs:
-
   build:
-
     runs-on: ubuntu-latest
 
     steps:
   # this Action should follow steps to set up Python build environment
-  - name: Install Python dependencies
+    - name: Install Python dependencies
     uses: py-actions/py-dependency-install@v3
     - uses: actions/checkout@v1
     # Standard drop-in approach that should work for most people.
