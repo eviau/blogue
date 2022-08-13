@@ -1,0 +1,67 @@
+@import url("basic.css"); /* make sure to sync this with the base theme's css filename */
+
+html {
+    background-color: #31263E;
+    color: #31263E;
+    font-family: math, courier, monospace;
+    }
+    
+h1{
+    text-shadow: #00FF1D 5px 5px;}
+h1, h2, h3{
+	font-weight: 900;
+    font-family: sans;}
+
+a{color: black;
+text-decoration-color: #00FF1D;}
+
+.related a {
+color:white;}
+
+.footer a{
+color:white}
+
+.related, .footer{
+color:white}
+
+div{
+    margin: 10px;}
+
+div.documentwrapper, div.sphinxsidebar{
+    padding: 15px;
+    border-radius: 2.5px;
+    background-color: white;
+    box-shadow: 20px 20px #00FF1D;
+    margin: 25px;
+    max-width: 750px;
+    }
+
+
+div.clearer {
+    clear: both;
+}
+
+div.section::after {
+    display: block;
+    content: '';
+    clear: left;
+}
+
+.strike {
+    text-decoration: line-through;
+}
+
+div.document{
+	display: flex;
+	min-height: 85vh;
+}
+
+div.sphinxsidebar {
+	
+    width: {{ theme_sidebarwidth|todim }};
+    margin-left: 5%;
+    font-size: 90%;
+    word-wrap: break-word;
+    overflow-wrap : break-word;
+}
+
