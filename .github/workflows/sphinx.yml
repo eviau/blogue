@@ -14,13 +14,12 @@ jobs:
     - name: Build HTML
       uses: ammaraskar/sphinx-action@master
       with:
-        pre-build-command: python3 -m pip install -r docs/requirements.txt
-        build-command: "sphinx-build -b html source docs/build"
+        build-command: "sphinx-build -b html source build"
     - name: Upload artifacts
       uses: actions/upload-artifact@v1
       with:
         name: DocumentationHTML
-        path: docs/build/html/
+        path: ./docs/build/html/
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       if: github.ref == 'refs/heads/main'
