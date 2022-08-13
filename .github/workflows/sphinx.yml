@@ -13,6 +13,8 @@ jobs:
   # this Action should follow steps to set up Python build environment
     - name: Install Python dependencies
       uses: py-actions/py-dependency-install@v3
+      with:
+        path: "./requirements.txt"
     - uses: actions/checkout@v1
     # Standard drop-in approach that should work for most people.
     - uses: ammaraskar/sphinx-action@master
