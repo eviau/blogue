@@ -19,7 +19,6 @@ jobs:
     # Standard drop-in approach that should work for most people.
     - uses: ammaraskar/sphinx-action@master
       with:
-        build-command: "if [ -f docs/ ]; then sphinx-build -b html source/ build/; fi"
         docs-folder: "docs/"
     # Create an artifact of the html output.
     - uses: actions/upload-artifact@v1
