@@ -18,6 +18,7 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     # Standard drop-in approach that should work for most people.
     - run: pwd
+        ls -a
     - uses: ammaraskar/sphinx-action@master
       with:
         docs-folder: "docs/"
