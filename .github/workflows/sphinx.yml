@@ -15,14 +15,9 @@ jobs:
       uses: ammaraskar/sphinx-action@master
       with:
         build-command: "sphinx-build -b html source build"
-    - name: Upload artifacts
-      uses: actions/upload-artifact@v3
-      with:
-        path: docs/build/html/
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3
-      if: github.ref == 'refs/heads/main'
+    - name: Push changes
+      uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: /
+        branch: gh-pages
     # ===============================
