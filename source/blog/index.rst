@@ -1,8 +1,7 @@
 Blog
 ====
 
-.. feed-entry::
-   :date: 2022-08-06
-   
-Encore et toujours.
-
+.. toctree::
+   :maxdepth: 1
+	
+   quitting-data-science
