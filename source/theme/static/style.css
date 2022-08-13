@@ -1,35 +1,40 @@
 @import url("basic.css"); /* make sure to sync this with the base theme's css filename */
 
-body{
-	min-height: 1000px}
-	
-
 html {
-    background-color: #C5D3CE;
+    background-color: #31263E;
     color: #31263E;
-    font-family: sans;
-    min-height: 1000px;
+    font-family: courier;
     }
     
 h1{
-    text-shadow: 1px 1px 2px #00ff1d;}
+    text-shadow: #00FF1D 5px 5px;}
 h1, h2, h3{
-    font-family: courier;}
+	font-weight: 900;
+    font-family: sans;}
 
-a{    color: #31263E;
-    text-decoration-color: #00ff1d;}
+a{color: black;
+text-decoration-color: #00FF1D;}
+
+.related a {
+color:white;}
+
+.footer a{
+color:white}
+
+.related, .footer{
+color:white}
 
 div{
     margin: 10px;}
 
 div.documentwrapper, div.sphinxsidebar{
     padding: 15px;
-    border-radius: 5px;
+    border-radius: 2.5px;
     background-color: white;
-    box-shadow: 10px 10px 5px #00ff1d;
+    box-shadow: 20px 20px #00FF1D;
     margin: 25px;
     max-width: 750px;
-    min-height: 500px;}
+    }
 
 
 div.clearer {
@@ -42,13 +47,13 @@ div.section::after {
     clear: left;
 }
 
-
 .strike {
     text-decoration: line-through;
 }
 
 div.document{
 	display: flex;
+	min-height: 85vh;
 }
 
 div.sphinxsidebar {

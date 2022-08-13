@@ -9,7 +9,7 @@
 project = 'eviau'
 copyright = '2022, Edith Viau'
 author = 'Edith Viau'
-release = '0.1'
+release = ''
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -26,6 +26,7 @@ extensions.append('sphinxcontrib.newsfeed')
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
+html_title = "edith viau: documentation"
 html_theme = 'theme'
 html_theme_path = ['.']
 html_static_path = ['_static']
