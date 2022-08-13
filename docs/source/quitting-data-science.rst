@@ -1,8 +1,10 @@
 Quitting data science
 =====================
 
-.. feed-entry::
-   :date: 2022-08-12
+.. post:: Aug 13, 2022
+   :tags: data-science
+   :author: me
+   :language: en
 
 This is a rough draft explaining my thought process about data science after having worked briefly in the field a few years ago.
 

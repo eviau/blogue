@@ -4,8 +4,12 @@ eviau : documentation, arts, python
 ===================================
 
 .. toctree::
-   :maxdepth: 2
-   
-   index.rss
-   blog/index
+   :maxdepth: 1
 
+   RSS/Atom <https://www.eviau.net/blogue/blog/atom.xml>
+
+Blog
+------
+
+.. postlist::
+   :language: en
