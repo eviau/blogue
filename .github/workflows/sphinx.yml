@@ -20,14 +20,14 @@ jobs:
     - run: |
         pwd
         ls -a
-    - uses: ammaraskar/sphinx-action@master
+    - uses: actions/checkout@v2
+    - name: Build HTML
+      uses: ammaraskar/sphinx-action@master
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v1
       with:
-        docs-folder: "docs/"
-    # Create an artifact of the html output.
-    - uses: actions/upload-artifact@v1
-      with:
-        name: DocumentationHTML
-        path: build/
+        name: html-docs
+        path: docs/build/html/
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       if: github.ref == 'refs/heads/main'
