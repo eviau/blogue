@@ -6,11 +6,9 @@ L'art et la génération de sens
    :author: me
    :language: fr
 
-Je ne sais pas ce qu'est l'art. Je ne suis pas philosophe ni historienne de l'art - le beau, l'esthétisme ne me parlent que très peu.
+Je ne sais pas ce qu'est l'art. Je ne suis pas philosophe ni historienne de l'art.
 
 Je ne sais pas ce qu'est l'art, en général. Mais je sais ce que je cherche dans ma pratique artistique: générer du sens.
-
-Certaines choses qu'on dit sur l'art ne m'intéressent pas en ce moment, comme l'expression personnelle d'une vérité subjective ou la création d'oeuvres impressionantes techniquement et esthétiquement. Ça se peut que ça change.
 
 Dans ma pratique personnelle - loin des concours, des appels à projets, des résidences, du financement, du marché de l'art - dans ma pratique personnelle donc, celle qui n'est pas nulle part... je me pose des questions auxquelles je ne trouve pas réponse dans les autres domaines du savoir, dans les autres méthodes de connaissance.
 
