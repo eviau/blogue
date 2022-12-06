@@ -13,3 +13,6 @@ Blog
 
 .. postlist::
    :language: en
+   
+.. postlist::
+   :language: fr
