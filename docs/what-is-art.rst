@@ -55,7 +55,7 @@ J'ai surtout étudié les marchés, la finance - comme mécanisme décisionnel, 
 
 Avec *La plus longue rencontre du monde est-elle une rencontre ?* - j'aimerais continuer la réflexion en posant la question de la réunion comme une génération de consensus en collectivité - dans ce cas-ci, dans le monde du travail...
 
-Bien avant ceci, je m'étais `posé <https://www.meetup.com/papers-we-love-montreal/events/252088848/>`__ la question de `la décision collective dans le cadre du théorème d'impossibilité d'Arrow<https://www.stat.uchicago.edu/~lekheng/meetings/mathofranking/ref/arrow.pdf>`__.
+Bien avant ceci, je m'étais `posé <https://www.meetup.com/papers-we-love-montreal/events/252088848/>`__ la question de `la décision collective dans le cadre du théorème d'impossibilité d'Arrow <https://www.stat.uchicago.edu/~lekheng/meetings/mathofranking/ref/arrow.pdf>`__.
 
 Donc je disais - je m'intéresse à l'art comme mécanisme de génération de sens. Quel est le sens de nos décisions collectives ?
 
