@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr">
   <id>https://www.eviau.net/blogue</id>
   <title>Blog</title>
-  <updated>2022-12-06T01:16:46.367692+00:00</updated>
+  <updated>2022-12-06T01:19:11.778846+00:00</updated>
   <link href="https://www.eviau.net/blogue"/>
   <link href="https://www.eviau.net/blogue/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.29">ABlog</generator>

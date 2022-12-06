@@ -18,7 +18,7 @@ On peut chercher, on peut faire, on peut découvrir - mais pourquoi faire toutes
 
 Je m'intéresse à l'art comme outil scientifique valide en soi.
 
-Dans `Archiver le présent <http://archiverlepresent.org/>`__ , je me souviens avoir vu sans pouvoir la retrouver une citation de - peut-être était-ce `cette entrevue du peintre Roman Opołka <https://archiverlepresent.org/fiche-de-la-collection/opalka-1965-1>`__, connu pour ses peintures des nombres entiers de 0 à l'infini, il pose le fait suivant - c'est une fausse citation donc - il dit... : "J'aurais pû faire la même oeuvre mais la réaliser comme un écrivain - dire qu'il existe un peintre qui s'occupe à dessiner des chiffres sur des toiles, à l'infini.... j'aurais pû - mais moi je l'ai fait. Et c'est là toute la différence." [citation needed, comme on dit sur Wikipedia].
+Dans `Archiver le présent <http://archiverlepresent.org/>`__ , je me souviens avoir vu sans pouvoir la retrouver une citation de - peut-être était-ce `cette entrevue du peintre Roman Opałka <https://archiverlepresent.org/fiche-de-la-collection/opalka-1965-1>`__, connu pour ses peintures des nombres entiers de 0 à l'infini, il pose le fait suivant - c'est une fausse citation donc - il dit... : "J'aurais pû faire la même oeuvre mais la réaliser comme un écrivain - dire qu'il existe un peintre qui s'occupe à dessiner des chiffres sur des toiles, à l'infini.... j'aurais pû - mais moi je l'ai fait. Et c'est là toute la différence." [citation needed, comme on dit sur Wikipedia].
 
 Ça veut dire quoi, être humain ?
 
