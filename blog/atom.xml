@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr">
   <id>https://www.eviau.net/blogue</id>
   <title>Blog</title>
-  <updated>2022-08-13T12:13:05.458874+00:00</updated>
+  <updated>2022-12-06T01:13:45.020589+00:00</updated>
   <link href="https://www.eviau.net/blogue"/>
   <link href="https://www.eviau.net/blogue/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.29">ABlog</generator>
@@ -21,5 +21,22 @@
     <summary>This is a rough draft explaining my thought process about data science after having worked briefly in the field a few years ago.</summary>
     <category term="data-science" label="data-science"/>
     <published>2022-08-13T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.eviau.net/blogue/what-is-art.html</id>
+    <title>L’art et la génération de sens</title>
+    <updated>2022-12-05T00:00:00+00:00</updated>
+    <author>
+      <name>me</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;Je ne sais pas ce qu’est l’art. Je ne suis pas philosophe ni historienne de l’art.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="https://www.eviau.net/blogue/what-is-art.html" rel="alternate"/>
+    <summary>Je ne sais pas ce qu’est l’art. Je ne suis pas philosophe ni historienne de l’art.</summary>
+    <category term="art" label="art"/>
+    <category term="essai" label="essai"/>
+    <published>2022-12-05T00:00:00+00:00</published>
   </entry>
 </feed>
