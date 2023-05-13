@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr">
   <id>https://www.eviau.net/blogue</id>
   <title>Blog</title>
-  <updated>2023-05-01T19:12:31.106083+00:00</updated>
+  <updated>2023-05-13T18:41:30.601074+00:00</updated>
   <link href="https://www.eviau.net/blogue"/>
   <link href="https://www.eviau.net/blogue/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.29">ABlog</generator>
@@ -55,5 +55,24 @@
     <category term="art" label="art"/>
     <category term="poeme" label="poeme"/>
     <published>2023-05-01T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.eviau.net/blogue/bandcamp-big-o-notation.html</id>
+    <title>Bandcamp: big O notation for Fridays</title>
+    <updated>2023-05-13T00:00:00+00:00</updated>
+    <author>
+      <name>me and a friend</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;J’ai demandé la question suivante de façon anonyme:&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="https://www.eviau.net/blogue/bandcamp-big-o-notation.html" rel="alternate"/>
+    <summary>J’ai demandé la question suivante de façon anonyme:</summary>
+    <category term="art" label="art"/>
+    <category term="bandcamp" label="bandcamp"/>
+    <category term="computerscience" label="computer science"/>
+    <category term="informatique" label="informatique"/>
+    <published>2023-05-13T00:00:00+00:00</published>
   </entry>
 </feed>

@@ -1,0 +1,157 @@
+
+<!DOCTYPE html>
+
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+
+    <title>Bandcamp: big O notation for Fridays &#8212; edith viau: documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/style.css" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/translations.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Recherche" href="search.html" />   
+<link
+  rel="alternate"
+  type="application/atom+xml"
+  href="blog/atom.xml"
+  title="Blog"
+/>
+ 
+<style type="text/css">
+  ul.ablog-archive {
+    list-style: none;
+    overflow: auto;
+    margin-left: 0px;
+  }
+  ul.ablog-archive li {
+    float: left;
+    margin-right: 5px;
+    font-size: 80%;
+  }
+  ul.postlist a {
+    font-style: italic;
+  }
+  ul.postlist-style-disc {
+    list-style-type: disc;
+  }
+  ul.postlist-style-none {
+    list-style-type: none;
+  }
+  ul.postlist-style-circle {
+    list-style-type: circle;
+  }
+</style>
+
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="Index général"
+             accesskey="I">index</a></li>
+        <li class="nav-item nav-item-0"><a href="index.html">edith viau: documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Bandcamp: big O notation for Fridays</a></li> 
+      </ul>
+    </div>
+    <div class="document"> 
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h3><a href="index.html">Table des matières</a></h3>
+<ul>
+<li class="toctree-l1"><a class="reference external" href="https://www.eviau.net/blogue/blog/atom.xml">RSS/Atom</a></li>
+</ul>
+
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Recherche rapide</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div> 
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+             <section id="bandcamp-big-o-notation-for-fridays">
+<h1>Bandcamp: big O notation for Fridays<a class="headerlink" href="#bandcamp-big-o-notation-for-fridays" title="Lien permanent vers cette rubrique">¶</a></h1>
+<p>J’ai demandé la question suivante de façon anonyme:</p>
+<p><code class="docutils literal notranslate"><span class="pre">`</span>
+<span class="pre">ça</span> <span class="pre">prendrait</span> <span class="pre">quoi</span> <span class="pre">pour</span> <span class="pre">qu'un</span> <span class="pre">fichier</span> <span class="pre">audio</span> <span class="pre">soit</span> <span class="pre">turing</span> <span class="pre">complete</span> <span class="pre">et</span> <span class="pre">que</span> <span class="pre">bandcamp</span> <span class="pre">s'en</span> <span class="pre">rende</span> <span class="pre">pas</span> <span class="pre">compte</span> <span class="pre">?</span>
+<span class="pre">`</span></code></p>
+<p>Et la brillante, excellente réponse anonyme:</p>
+<section id="reponse">
+<h2>RÉPONSE<a class="headerlink" href="#reponse" title="Lien permanent vers cette rubrique">¶</a></h2>
+<p>Le terme « Turing complete » s’applique à un ordinateur (qui traite une suite d’instructions) ou à un langage (dans le sens que c’est une suite d’instructions).
+Typiquement ces langages peuvent être exprimés sous une grammaire du genre:</p>
+<p><code class="docutils literal notranslate"><span class="pre">`</span>
+<span class="pre">expression</span> <span class="pre">::=</span> <span class="pre">atom</span> <span class="pre">|</span> <span class="pre">list</span>
+<span class="pre">atom</span>&#160;&#160;&#160;&#160;&#160;&#160; <span class="pre">::=</span> <span class="pre">number</span> <span class="pre">|</span> <span class="pre">symbol</span>
+<span class="pre">number</span>&#160;&#160;&#160;&#160; <span class="pre">::=</span> <span class="pre">[+-]?['0'-'9']+</span>
+<span class="pre">symbol</span>&#160;&#160;&#160;&#160; <span class="pre">::=</span> <span class="pre">['A'-'Z''a'-'z'].*</span>
+<span class="pre">list</span>&#160;&#160;&#160;&#160;&#160;&#160; <span class="pre">::=</span> <span class="pre">'('</span> <span class="pre">expression*</span> <span class="pre">')'</span>
+<span class="pre">`</span></code></p>
+<p>Une telle grammaire est dite « Turing complete » si elle peut exprimer toutes les fonctions calculables. Les langages « Turing complete » sont tous équivalents en termes de capacité calculatoire.</p>
+<p>Donc, pour ta question. Un fichier audio en soi n’est pas un langage. C’est une série de données ordonnées représentant des modulations sonores selon un standard spécifique. Les formats modernes sont souvent sous forme de conteneur: MP3, MP4, WAV, etc.</p>
+<p>A)
+Est-ce possible de créer un standard audio qui contient à la fois une série de données sonores tout en étant un langage?</p>
+<p>Oui. La solution triviale existe déjà, techniquement n’importe quel programme actuel l’est déjà. Tu peux faire le lire les données raw de n’importe quel programme à ta carte de son et elle produire quelque chose. Ça ne sera rien d’intéressant. La difficulté est de créer un langage qui produit des fichiers de programmes non triviaux qui encodent en même temps des sons non triviaux. (et de créer le décodeur approprié pour le nouveau format, et de rajouter ce décodeur à ton lecteur multimédia)</p>
+<p>Comme solution un peu moins triviale: Le langage est simplement du C avec une entête qui dit la taille des instructions C. Le reste du programme est le data d’un WAV. Est-ce que ça remplit ton critère?</p>
+<p>B)
+Est-ce que ce nouveau fichier audio pourrait être téléversé dans Bandcamp s’en qu’il ne s’en rende compte?</p>
+<ol class="arabic simple">
+<li><p>Bandcamp ne supporte que certains types de fichiers. À moins de prétendre être un type différent (en fabriquant une fausse entête) le fichier sera probablement rejeté.</p></li>
+<li><p>En supposant que le fichier ne soit pas rejeté, il sera simplement non lisible par le lecteur multimédia de la personne qui le lit. Une fois passé l’entête, le reste du fichier ne sera pas dans un format supporté. (à moins que tu arrives à rendre ton nouveau format mainstream, mais rendu là Bandcamp le supportera probablement de toute façon donc la condition « sans s’en rendre compte » sera fausse)</p></li>
+</ol>
+<p>C)
+Supposons qu’on a créé le langage/format audio parfait discuté en A et qu’il soit disponible sur Bandcamp (qui pense que c’est un autre format) et que ton lecteur multimédia le supporte. Lorsque traité comme fichier audio dans le lecteur multimédia, la musique pourra jouer normalement. Lorsque exécuté comme programme par ton système d’exploitation, le programme roulera.</p>
+<p>Finalement, ce n’est pas impossible. Réaliser A est difficile et probablement inutile. Réaliser B est facile (à moins que Bandcamp ait beaucoup de mesures pour détecter les faux fichiers) mais le résultat ne sera utilisable que pour ceux qui ont un lecteur qui supporte le nouveau format.</p>
+<ul class="simple">
+<li><p>Edith, samedi 13 mai 2023, 14h28m00s</p></li>
+</ul>
+</section>
+</section>
+
+<div class="section">
+    
+
+<div class="section">
+  <span style="float: left">
+     Previous:
+    
+    <a href="terre-qui-mousse.html">
+       Terre qui brûle n’amasse pas mousse
+    </a>
+    
+  </span>
+  <span>&nbsp;</span>
+  <span style="float: right">
+    
+  </span>
+</div>
+  
+</div>
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="clearer"></div>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2022, Edith Viau.
+      Créé en utilisant <a href="https://www.sphinx-doc.org/">Sphinx</a> 5.1.1.
+    </div>
+  </body>
+</html>
