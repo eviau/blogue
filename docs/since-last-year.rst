@@ -39,7 +39,7 @@ I did a `talk on some net.art projects <https://docs.google.com/presentation/d/e
 
 While everything is slowly moving offline, I appreciate that there are still online meetups that allow us to network internationally without having to travel to some place, especially for more informal opportunities.
 
-I presented alongside `Solomiya Moroz <www.solomiyamoroz.com>`__, who talked about composition, gesture and technology. 
+I presented alongside `Solomiya Moroz <https://www.solomiyamoroz.com>`__, who talked about composition, gesture and technology. 
 
 Thanks to Notam and the hosts in making this happens!
 
@@ -70,6 +70,6 @@ This sums it up for now :)
 
 I have long write ups in my notes and in my head that I would like to get around with. I also have a list of never-ending projects. And... Summer is starting in this part of the world... there will be rainy days to address some of these ideas ;)
 
-I'd like to do a better job at announcing things I do *before they happen*, haven't found the right way to do this yet. Maybe a board on `are.na <https://www.are.na/mercure-m/noise-and-music-in-the-financial-world>>`__ ? Feel more than welcome to write me an email at *info@eviau.net* if you'd like to be kept in the loop, in the future.
+I'd like to do a better job at announcing things I do *before they happen*, haven't found the right way to do this yet. Maybe a board on `are.na <https://www.are.na/mercure-m/noise-and-music-in-the-financial-world>`__ ? Feel more than welcome to write me an email at *info@eviau.net* if you'd like to be kept in the loop, in the future.
 
 thank you for your attention and support <3
