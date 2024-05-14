@@ -59,7 +59,7 @@ I did a `talk on the Type and Trade and Type (or TTType) project at Wordhack <ht
 
 `TTType (2021) <https://github.com/finartcialist/tttype>`__ is an esolang plugin that have you trade programming characters and glyphs in order for you to code in a programming language of your choice.
 
-I presented alongside `Todd Anderson <https://toddwords.com/>`__ and `Viola He <https://violand.xyz/`__. Todd did a great performance/presentation on his work `building websites and teaching about them <https://sfpc.study/sessions/winter-24/httpoetics>`__. Viola presented some stand up comedy with a `highlight of crowd participation <http://violahaha.glitch.me/>`__. I was curious to hear some words said automatically by the text-to-speech used and made some of my own suggestions - Viola played gracefully around them, and the whole show was hilarious! If you can catch one, please GO :)
+I presented alongside `Todd Anderson <https://toddwords.com/>`__ and `Viola He <https://violand.xyz/>`__. Todd did a great performance/presentation on his work `building websites and teaching about them <https://sfpc.study/sessions/winter-24/httpoetics>`__. Viola presented some stand up comedy with a `highlight of crowd participation <http://violahaha.glitch.me/>`__. I was curious to hear some words said automatically by the text-to-speech used and made some of my own suggestions - Viola played gracefully around them, and the whole show was hilarious! If you can catch one, please GO :)
 
 Thumbs up to `Wonderville <https://www.wonderville.nyc/>`__ for hosting the night.
 
