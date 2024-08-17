@@ -4,18 +4,21 @@ eviau : documentation, arts, python
 ===================================
 
 .. toctree::
+   :hidden:
    :maxdepth: 1
 
    RSS/Atom <https://www.eviau.net/blogue/blog/atom.xml>
 
-Blog
+Récemment
+---------
+
+.. postlist:: 1
+
+
+plus
 ----
 
-.. postlist::
-   :language: en
+See posts by :ref:`blog-languages` (English et fran­cais)
 
-Blogue
-------
+See posts by :ref:`blog-archives` (date)
 
-.. postlist::
-   :language: fr
