@@ -27,9 +27,7 @@ blog_baseurl = "https://www.eviau.net/blogue"
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_title = "edith viau: documentation"
-html_theme = 'classic'
-html_theme_path = ['.']
-html_static_path = ['_static']
+html_theme = 'traditional'
 
 html_sidebars = { '**': ['globaltoc.html', 'relations.html', 'sourcelink.html', 'searchbox.html'] }
 
