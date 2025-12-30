@@ -34,4 +34,4 @@ html_static_path = ['_static']
 html_sidebars = { '**': ['globaltoc.html', 'relations.html', 'sourcelink.html', 'searchbox.html'] }
 
 blog_authors = {
-    'Édith Viau': ('Édith viau', 'http://eviau.net'),
+    'Édith Viau': ('Édith viau', 'http://eviau.net')}
